@@ -1,0 +1,30 @@
+{
+  "name": "counter.js",
+  "version": "1.0.0",
+  "description": "A small, fast and easy to use library for counting the number of hashable objects.",
+  "keywords": [
+    "counter",
+    "number",
+    "string",
+    "objects",
+    "array",
+    "arbitrary"
+  ],
+  "bugs": {
+    "url": "https://github.com/morita657/counter.js/issues"
+  },
+  "main": "counter.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/morita657/counter.js.git",
+  "author": "Takahiro Morita",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify-es": "^1.0.4",
+    "mocha": "^5.2.0"
+  }
+}
